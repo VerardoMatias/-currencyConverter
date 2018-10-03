@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<meta charset="utf-8">
+	<title>API's</title>
+</head>
+<body>
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-md-12">
+					<label>Conversor de Divisas</label>
+				</div>	
+
+			</div>
+		</div>
+	</header>
+<!-- 	/*************************************************************************************************/
+
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+</div>
+
+
+
+
+	/*************************************************************************************************/-->	
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-md-6">
+				<label>Monto a Convertir:</label>
+			</div>
+
+			<div class="col-md-6">
+				<div class="input-group">
+					<span class="input-group-addon" id="basic-addon1">$</span>
+					<input type="number" class="form-control" placeholder="Monto a convertir" aria-describedby="basic-addon1" name="" id="monto"/<style>
+				</div>
+			</div>
+
+		</div>
+
+
+
+		<div class="row">
+			
+			<div class="col-md-6">
+				<label>Tengo ésta divisa:</label>
+			</div>
+
+			<div class="col-md-6">
+				<select class="form-control" id="monedaMonto"> 
+				<OPTION value=AED>United Arab Emirates Dirham (AED)</OPTION> 
+				<OPTION value=AFN>Afghan Afghani (AFN)</OPTION> 
+				<OPTION value=ALL>Albanian Lek (ALL)</OPTION> 
+				<OPTION value=AMD>Armenian Dram (AMD)</OPTION> 
+				<OPTION value=ANG>Netherlands Antillean Guilder (ANG)</OPTION> 
+				<OPTION value=AOA>Angolan Kwanza (AOA)</OPTION> 
+				<OPTION selected value=ARS>Argentine Peso (ARS)</OPTION> 
+				<OPTION value=AUD>Australian Dollar (A$)</OPTION> 
+				<OPTION value=AWG>Aruban Florin (AWG)</OPTION> 
+				<OPTION value=AZN>Azerbaijani Manat (AZN)</OPTION> 
+				<OPTION value=BAM>Bosnia-Herzegovina Convertible Mark (BAM)</OPTION> 
+				<OPTION value=BBD>Barbadian Dollar (BBD)</OPTION> 
+				<OPTION value=BDT>Bangladeshi Taka (BDT)</OPTION> 
+				<OPTION value=BGN>Bulgarian Lev (BGN)</OPTION>
+				<OPTION value=BHD>Bahraini Dinar (BHD)</OPTION> 
+				<OPTION value=BIF>Burundian Franc (BIF)</OPTION>
+				<OPTION value=BMD>Bermudan Dollar (BMD)</OPTION>
+				<OPTION value=BND>Brunei Dollar (BND)</OPTION> 
+				<OPTION value=BOB>Bolivian Boliviano (BOB)</OPTION> 
+				<OPTION value=BRL>Brazilian Real (R$)</OPTION> 
+				<OPTION value=BSD>Bahamian Dollar (BSD)</OPTION>
+				<OPTION value=BTC>Bitcoin (฿)</OPTION> 
+				<OPTION value=BTN>Bhutanese Ngultrum (BTN)</OPTION> 
+				<OPTION value=BWP>Botswanan Pula (BWP)</OPTION> 
+				<OPTION value=BYR>Belarusian Ruble (BYR)</OPTION>
+				<OPTION value=BZD>Belize Dollar (BZD)</OPTION>
+				<OPTION value=CAD>Canadian Dollar (CA$)</OPTION>
+				<OPTION value=CDF>Congolese Franc (CDF)</OPTION>
+				<OPTION value=CHF>Swiss Franc (CHF)</OPTION> 
+				<OPTION value=CLF>Chilean Unit of Account (UF) (CLF)</OPTION> 
+				<OPTION value=CLP>Chilean Peso (CLP)</OPTION> 
+				<OPTION value=CNH>CNH (CNH)</OPTION> 
+				<OPTION value=CNY>Chinese Yuan (CN¥)</OPTION> 
+				<OPTION value=COP>Colombian Peso (COP)</OPTION>
+				<OPTION value=CRC>Costa Rican Colón (CRC)</OPTION>
+				<OPTION value=CUP>Cuban Peso (CUP)</OPTION> 
+				<OPTION value=CVE>Cape Verdean Escudo (CVE)</OPTION>
+				<OPTION value=CZK>Czech Republic Koruna (CZK)</OPTION>
+				<OPTION value=DEM>German Mark (DEM)</OPTION>
+				<OPTION value=DJF>Djiboutian Franc (DJF)</OPTION> 
+				<OPTION value=DKK>Danish Krone (DKK)</OPTION> 
+				<OPTION value=DOP>Dominican Peso (DOP)</OPTION>
+				<OPTION value=DZD>Algerian Dinar (DZD)</OPTION> 
+				<OPTION value=EGP>Egyptian Pound (EGP)</OPTION> 
+				<OPTION value=ERN>Eritrean Nakfa (ERN)</OPTION>
+				<OPTION value=ETB>Ethiopian Birr (ETB)</OPTION> 
+				<OPTION value=EUR>Euro (€)</OPTION>
+				<OPTION value=FIM>Finnish Markka (FIM)</OPTION>
+				<OPTION value=FJD>Fijian Dollar (FJD)</OPTION> 
+				<OPTION value=FKP>Falkland Islands Pound (FKP)</OPTION> 
+				<OPTION value=FRF>French Franc (FRF)</OPTION>
+				<OPTION value=GBP>British Pound (£)</OPTION>
+				<OPTION value=GEL>Georgian Lari (GEL)</OPTION> 
+				<OPTION value=GHS>Ghanaian Cedi (GHS)</OPTION> 
+				<OPTION value=GIP>Gibraltar Pound (GIP)</OPTION>
+				<OPTION value=GMD>Gambian Dalasi (GMD)</OPTION> 
+				<OPTION value=GNF>Guinean Franc (GNF)</OPTION>
+				<OPTION value=GTQ>Guatemalan Quetzal (GTQ)</OPTION> 
+				<OPTION value=GYD>Guyanaese Dollar (GYD)</OPTION> 
+				<OPTION value=HKD>Hong Kong Dollar (HK$)</OPTION>
+				<OPTION value=HNL>Honduran Lempira (HNL)</OPTION> 
+				<OPTION value=HRK>Croatian Kuna (HRK)</OPTION>
+				<OPTION value=HTG>Haitian Gourde (HTG)</OPTION>
+				<OPTION value=HUF>Hungarian Forint (HUF)</OPTION> 
+				<OPTION value=IDR>Indonesian Rupiah (IDR)</OPTION> 
+				<OPTION value=IEP>Irish Pound (IEP)</OPTION>
+				<OPTION value=ILS>Israeli New Sheqel (₪)</OPTION> 
+				<OPTION value=INR>Indian Rupee (Rs.)</OPTION>
+				<OPTION value=IQD>Iraqi Dinar (IQD)</OPTION>
+				<OPTION value=IRR>Iranian Rial (IRR)</OPTION> 
+				<OPTION value=ISK>Icelandic Króna (ISK)</OPTION> 
+				<OPTION value=ITL>Italian Lira (ITL)</OPTION>
+				<OPTION value=JMD>Jamaican Dollar (JMD)</OPTION>
+				<OPTION value=JOD>Jordanian Dinar (JOD)</OPTION>
+				<OPTION value=JPY>Japanese Yen (¥)</OPTION>
+				<OPTION value=KES>Kenyan Shilling (KES)</OPTION>
+				<OPTION value=KGS>Kyrgystani Som (KGS)</OPTION> 
+				<OPTION value=KHR>Cambodian Riel (KHR)</OPTION>
+				<OPTION value=KMF>Comorian Franc (KMF)</OPTION>
+				<OPTION value=KPW>North Korean Won (KPW)</OPTION> 
+				<OPTION value=KRW>South Korean Won (₩)</OPTION>
+				<OPTION value=KWD>Kuwaiti Dinar (KWD)</OPTION>
+				<OPTION value=KYD>Cayman Islands Dollar (KYD)</OPTION> 
+				<OPTION value=KZT>Kazakhstani Tenge (KZT)</OPTION>
+				<OPTION value=LAK>Laotian Kip (LAK)</OPTION>
+				<OPTION value=LBP>Lebanese Pound (LBP)</OPTION> 
+				<OPTION value=LKR>Sri Lankan Rupee (LKR)</OPTION>
+				<OPTION value=LRD>Liberian Dollar (LRD)</OPTION> 
+				<OPTION value=LSL>Lesotho Loti (LSL)</OPTION>
+				<OPTION value=LTL>Lithuanian Litas (LTL)</OPTION>
+				<OPTION value=LVL>Latvian Lats (LVL)</OPTION>
+				<OPTION value=LYD>Libyan Dinar (LYD)</OPTION>
+				<OPTION value=MAD>Moroccan Dirham (MAD)</OPTION> 
+				<OPTION value=MDL>Moldovan Leu (MDL)</OPTION> 
+				<OPTION value=MGA>Malagasy Ariary (MGA)</OPTION> 
+				<OPTION value=MKD>Macedonian Denar (MKD)</OPTION> 
+				<OPTION value=MMK>Myanmar Kyat (MMK)</OPTION> 
+				<OPTION value=MNT>Mongolian Tugrik (MNT)</OPTION>
+				<OPTION value=MOP>Macanese Pataca (MOP)</OPTION>
+				<OPTION value=MRO>Mauritanian Ouguiya (MRO)</OPTION>
+				<OPTION value=MUR>Mauritian Rupee (MUR)</OPTION> 
+				<OPTION value=MVR>Maldivian Rufiyaa (MVR)</OPTION> 
+				<OPTION value=MWK>Malawian Kwacha (MWK)</OPTION> 
+				<OPTION value=MXN>Mexican Peso (MX$)</OPTION>
+				<OPTION value=MYR>Malaysian Ringgit (MYR)</OPTION> 
+				<OPTION value=MZN>Mozambican Metical (MZN)</OPTION>
+				<OPTION value=NAD>Namibian Dollar (NAD)</OPTION>
+				<OPTION value=NGN>Nigerian Naira (NGN)</OPTION>
+				<OPTION value=NIO>Nicaraguan Córdoba (NIO)</OPTION>
+				<OPTION value=NOK>Norwegian Krone (NOK)</OPTION>
+				<OPTION value=NPR>Nepalese Rupee (NPR)</OPTION>
+				<OPTION value=NZD>New Zealand Dollar (NZ$)</OPTION>
+				<OPTION value=OMR>Omani Rial (OMR)</OPTION> 
+				<OPTION value=PAB>Panamanian Balboa (PAB)</OPTION>
+				<OPTION value=PEN>Peruvian Nuevo Sol (PEN)</OPTION>
+				<OPTION value=PGK>Papua New Guinean Kina (PGK)</OPTION>
+				<OPTION value=PHP>Philippine Peso (Php)</OPTION> 
+				<OPTION value=PKG>PKG (PKG)</OPTION>
+				<OPTION value=PKR>Pakistani Rupee (PKR)</OPTION> 
+				<OPTION value=PLN>Polish Zloty (PLN)</OPTION>
+				<OPTION value=PYG>Paraguayan Guarani (PYG)</OPTION> 
+				<OPTION value=QAR>Qatari Rial (QAR)</OPTION> 
+				<OPTION value=RON>Romanian Leu (RON)</OPTION> 
+				<OPTION value=RSD>Serbian Dinar (RSD)</OPTION> 
+				<OPTION value=RUB>Russian Ruble (RUB)</OPTION> 
+				<OPTION value=RWF>Rwandan Franc (RWF)</OPTION>
+				<OPTION value=SAR>Saudi Riyal (SAR)</OPTION> 
+				<OPTION value=SBD>Solomon Islands Dollar (SBD)</OPTION> 
+				<OPTION value=SCR>Seychellois Rupee (SCR)</OPTION> 
+				<OPTION value=SDG>Sudanese Pound (SDG)</OPTION> 
+				<OPTION value=SEK>Swedish Krona (SEK)</OPTION> 
+				<OPTION value=SGD>Singapore Dollar (SGD)</OPTION> 
+				<OPTION value=SHP>St. Helena Pound (SHP)</OPTION> 
+				<OPTION value=SKK>Slovak Koruna (SKK)</OPTION> 
+				<OPTION value=SLL>Sierra Leonean Leone (SLL)</OPTION>
+				<OPTION value=SOS>Somali Shilling (SOS)</OPTION>
+				<OPTION value=SRD>Surinamese Dollar (SRD)</OPTION> 
+				<OPTION value=STD>São Tomé Príncipe Dobra (STD)</OPTION> 
+				<OPTION value=SVC>Salvadoran Colón (SVC)</OPTION> 
+				<OPTION value=SYP>Syrian Pound (SYP)</OPTION>
+				<OPTION value=SZL>Swazi Lilangeni (SZL)</OPTION> 
+				<OPTION value=THB>Thai Baht (THB)</OPTION> 
+				<OPTION value=TJS>Tajikistani Somoni (TJS)</OPTION>
+				<OPTION value=TMT>Turkmenistani Manat (TMT)</OPTION> 
+				<OPTION value=TND>Tunisian Dinar (TND)</OPTION> 
+				<OPTION value=TOP>Tongan Paʻanga (TOP)</OPTION> 
+				<OPTION value=TRY>Turkish Lira (TRY)</OPTION> 
+				<OPTION value=TTD>Trinidad Tobago Dollar (TTD)</OPTION> 
+				<OPTION value=TWD>New Taiwan Dollar (NT$)</OPTION> 
+				<OPTION value=TZS>Tanzanian Shilling (TZS)</OPTION> 
+				<OPTION value=UAH>Ukrainian Hryvnia (UAH)</OPTION>
+				<OPTION value=UGX>Ugandan Shilling (UGX)</OPTION> 
+				<OPTION value=USD>US Dollar ($)</OPTION> 
+				<OPTION value=UYU>Uruguayan Peso (UYU)</OPTION> 
+				<OPTION value=UZS>Uzbekistani Som (UZS)</OPTION> 
+				<OPTION value=VEF>Venezuelan Bolívar (VEF)</OPTION> 
+				<OPTION value=VND>Vietnamese Dong (₫)</OPTION> 
+				<OPTION value=VUV>Vanuatu Vatu (VUV)</OPTION>
+				<OPTION value=WST>Samoan Tala (WST)</OPTION> 
+				<OPTION value=XAF>Central African CFA Franc (FCFA)</OPTION> 
+				<OPTION value=XCD>East Caribbean Dollar (EC$)</OPTION> 
+				<OPTION value=XDR>Special Drawing Rights (XDR)</OPTION>
+				<OPTION value=XOF>West African CFA Franc (CFA)</OPTION> 
+				<OPTION value=XPF>CFP Franc (CFPF)</OPTION> 
+				<OPTION value=YER>Yemeni Rial (YER)</OPTION> 
+				<OPTION value=ZAR>South African Rand (ZAR)</OPTION> 
+				<OPTION value=ZMK>Zambian Kwacha (1968–2012) (ZMK)</OPTION> 
+				<OPTION value=ZMW>Zambian Kwacha (ZMW)</OPTION>
+				<OPTION value=ZWL>Zimbabwean Dollar (2009) (ZWL)</OPTION>
+				</select>
+			</div>
+
+		</div>
+
+
+
+
+		<div class="row">
+			<div class="col-sm-6">
+				<label>Quiero ésta divisa:</label>
+			</div>
+
+			<div class="col-sm-6">
+				<select class="form-control" id="monedaAConv"> 
+				<OPTION value=AED>United Arab Emirates Dirham (AED)</OPTION> 
+				<OPTION value=AFN>Afghan Afghani (AFN)</OPTION> 
+				<OPTION value=ALL>Albanian Lek (ALL)</OPTION> 
+				<OPTION value=AMD>Armenian Dram (AMD)</OPTION> 
+				<OPTION value=ANG>Netherlands Antillean Guilder (ANG)</OPTION> 
+				<OPTION value=AOA>Angolan Kwanza (AOA)</OPTION> 
+				<OPTION value=ARS>Argentine Peso (ARS)</OPTION> 
+				<OPTION value=AUD>Australian Dollar (A$)</OPTION> 
+				<OPTION value=AWG>Aruban Florin (AWG)</OPTION> 
+				<OPTION value=AZN>Azerbaijani Manat (AZN)</OPTION> 
+				<OPTION value=BAM>Bosnia-Herzegovina Convertible Mark (BAM)</OPTION> 
+				<OPTION value=BBD>Barbadian Dollar (BBD)</OPTION> 
+				<OPTION value=BDT>Bangladeshi Taka (BDT)</OPTION> 
+				<OPTION value=BGN>Bulgarian Lev (BGN)</OPTION>
+				<OPTION value=BHD>Bahraini Dinar (BHD)</OPTION> 
+				<OPTION value=BIF>Burundian Franc (BIF)</OPTION>
+				<OPTION value=BMD>Bermudan Dollar (BMD)</OPTION>
+				<OPTION value=BND>Brunei Dollar (BND)</OPTION> 
+				<OPTION value=BOB>Bolivian Boliviano (BOB)</OPTION> 
+				<OPTION value=BRL>Brazilian Real (R$)</OPTION> 
+				<OPTION value=BSD>Bahamian Dollar (BSD)</OPTION>
+				<OPTION value=BTC>Bitcoin (฿)</OPTION> 
+				<OPTION value=BTN>Bhutanese Ngultrum (BTN)</OPTION> 
+				<OPTION value=BWP>Botswanan Pula (BWP)</OPTION> 
+				<OPTION value=BYR>Belarusian Ruble (BYR)</OPTION>
+				<OPTION value=BZD>Belize Dollar (BZD)</OPTION>
+				<OPTION value=CAD>Canadian Dollar (CA$)</OPTION>
+				<OPTION value=CDF>Congolese Franc (CDF)</OPTION>
+				<OPTION value=CHF>Swiss Franc (CHF)</OPTION> 
+				<OPTION value=CLF>Chilean Unit of Account (UF) (CLF)</OPTION> 
+				<OPTION value=CLP>Chilean Peso (CLP)</OPTION> 
+				<OPTION value=CNH>CNH (CNH)</OPTION> 
+				<OPTION value=CNY>Chinese Yuan (CN¥)</OPTION> 
+				<OPTION value=COP>Colombian Peso (COP)</OPTION>
+				<OPTION value=CRC>Costa Rican Colón (CRC)</OPTION>
+				<OPTION value=CUP>Cuban Peso (CUP)</OPTION> 
+				<OPTION value=CVE>Cape Verdean Escudo (CVE)</OPTION>
+				<OPTION value=CZK>Czech Republic Koruna (CZK)</OPTION>
+				<OPTION value=DEM>German Mark (DEM)</OPTION>
+				<OPTION value=DJF>Djiboutian Franc (DJF)</OPTION> 
+				<OPTION value=DKK>Danish Krone (DKK)</OPTION> 
+				<OPTION value=DOP>Dominican Peso (DOP)</OPTION>
+				<OPTION value=DZD>Algerian Dinar (DZD)</OPTION> 
+				<OPTION value=EGP>Egyptian Pound (EGP)</OPTION> 
+				<OPTION value=ERN>Eritrean Nakfa (ERN)</OPTION>
+				<OPTION value=ETB>Ethiopian Birr (ETB)</OPTION> 
+				<OPTION value=EUR>Euro (€)</OPTION>
+				<OPTION value=FIM>Finnish Markka (FIM)</OPTION>
+				<OPTION value=FJD>Fijian Dollar (FJD)</OPTION> 
+				<OPTION value=FKP>Falkland Islands Pound (FKP)</OPTION> 
+				<OPTION value=FRF>French Franc (FRF)</OPTION>
+				<OPTION value=GBP>British Pound (£)</OPTION>
+				<OPTION value=GEL>Georgian Lari (GEL)</OPTION> 
+				<OPTION value=GHS>Ghanaian Cedi (GHS)</OPTION> 
+				<OPTION value=GIP>Gibraltar Pound (GIP)</OPTION>
+				<OPTION value=GMD>Gambian Dalasi (GMD)</OPTION> 
+				<OPTION value=GNF>Guinean Franc (GNF)</OPTION>
+				<OPTION value=GTQ>Guatemalan Quetzal (GTQ)</OPTION> 
+				<OPTION value=GYD>Guyanaese Dollar (GYD)</OPTION> 
+				<OPTION value=HKD>Hong Kong Dollar (HK$)</OPTION>
+				<OPTION value=HNL>Honduran Lempira (HNL)</OPTION> 
+				<OPTION value=HRK>Croatian Kuna (HRK)</OPTION>
+				<OPTION value=HTG>Haitian Gourde (HTG)</OPTION>
+				<OPTION value=HUF>Hungarian Forint (HUF)</OPTION> 
+				<OPTION value=IDR>Indonesian Rupiah (IDR)</OPTION> 
+				<OPTION value=IEP>Irish Pound (IEP)</OPTION>
+				<OPTION value=ILS>Israeli New Sheqel (₪)</OPTION> 
+				<OPTION value=INR>Indian Rupee (Rs.)</OPTION>
+				<OPTION value=IQD>Iraqi Dinar (IQD)</OPTION>
+				<OPTION value=IRR>Iranian Rial (IRR)</OPTION> 
+				<OPTION value=ISK>Icelandic Króna (ISK)</OPTION> 
+				<OPTION value=ITL>Italian Lira (ITL)</OPTION>
+				<OPTION value=JMD>Jamaican Dollar (JMD)</OPTION>
+				<OPTION value=JOD>Jordanian Dinar (JOD)</OPTION>
+				<OPTION value=JPY>Japanese Yen (¥)</OPTION>
+				<OPTION value=KES>Kenyan Shilling (KES)</OPTION>
+				<OPTION value=KGS>Kyrgystani Som (KGS)</OPTION> 
+				<OPTION value=KHR>Cambodian Riel (KHR)</OPTION>
+				<OPTION value=KMF>Comorian Franc (KMF)</OPTION>
+				<OPTION value=KPW>North Korean Won (KPW)</OPTION> 
+				<OPTION value=KRW>South Korean Won (₩)</OPTION>
+				<OPTION value=KWD>Kuwaiti Dinar (KWD)</OPTION>
+				<OPTION value=KYD>Cayman Islands Dollar (KYD)</OPTION> 
+				<OPTION value=KZT>Kazakhstani Tenge (KZT)</OPTION>
+				<OPTION value=LAK>Laotian Kip (LAK)</OPTION>
+				<OPTION value=LBP>Lebanese Pound (LBP)</OPTION> 
+				<OPTION value=LKR>Sri Lankan Rupee (LKR)</OPTION>
+				<OPTION value=LRD>Liberian Dollar (LRD)</OPTION> 
+				<OPTION value=LSL>Lesotho Loti (LSL)</OPTION>
+				<OPTION value=LTL>Lithuanian Litas (LTL)</OPTION>
+				<OPTION value=LVL>Latvian Lats (LVL)</OPTION>
+				<OPTION value=LYD>Libyan Dinar (LYD)</OPTION>
+				<OPTION value=MAD>Moroccan Dirham (MAD)</OPTION> 
+				<OPTION value=MDL>Moldovan Leu (MDL)</OPTION> 
+				<OPTION value=MGA>Malagasy Ariary (MGA)</OPTION> 
+				<OPTION value=MKD>Macedonian Denar (MKD)</OPTION> 
+				<OPTION value=MMK>Myanmar Kyat (MMK)</OPTION> 
+				<OPTION value=MNT>Mongolian Tugrik (MNT)</OPTION>
+				<OPTION value=MOP>Macanese Pataca (MOP)</OPTION>
+				<OPTION value=MRO>Mauritanian Ouguiya (MRO)</OPTION>
+				<OPTION value=MUR>Mauritian Rupee (MUR)</OPTION> 
+				<OPTION value=MVR>Maldivian Rufiyaa (MVR)</OPTION> 
+				<OPTION value=MWK>Malawian Kwacha (MWK)</OPTION> 
+				<OPTION value=MXN>Mexican Peso (MX$)</OPTION>
+				<OPTION value=MYR>Malaysian Ringgit (MYR)</OPTION> 
+				<OPTION value=MZN>Mozambican Metical (MZN)</OPTION>
+				<OPTION value=NAD>Namibian Dollar (NAD)</OPTION>
+				<OPTION value=NGN>Nigerian Naira (NGN)</OPTION>
+				<OPTION value=NIO>Nicaraguan Córdoba (NIO)</OPTION>
+				<OPTION value=NOK>Norwegian Krone (NOK)</OPTION>
+				<OPTION value=NPR>Nepalese Rupee (NPR)</OPTION>
+				<OPTION value=NZD>New Zealand Dollar (NZ$)</OPTION>
+				<OPTION value=OMR>Omani Rial (OMR)</OPTION> 
+				<OPTION value=PAB>Panamanian Balboa (PAB)</OPTION>
+				<OPTION value=PEN>Peruvian Nuevo Sol (PEN)</OPTION>
+				<OPTION value=PGK>Papua New Guinean Kina (PGK)</OPTION>
+				<OPTION value=PHP>Philippine Peso (Php)</OPTION> 
+				<OPTION value=PKG>PKG (PKG)</OPTION>
+				<OPTION value=PKR>Pakistani Rupee (PKR)</OPTION> 
+				<OPTION value=PLN>Polish Zloty (PLN)</OPTION>
+				<OPTION value=PYG>Paraguayan Guarani (PYG)</OPTION> 
+				<OPTION value=QAR>Qatari Rial (QAR)</OPTION> 
+				<OPTION value=RON>Romanian Leu (RON)</OPTION> 
+				<OPTION value=RSD>Serbian Dinar (RSD)</OPTION> 
+				<OPTION value=RUB>Russian Ruble (RUB)</OPTION> 
+				<OPTION value=RWF>Rwandan Franc (RWF)</OPTION>
+				<OPTION value=SAR>Saudi Riyal (SAR)</OPTION> 
+				<OPTION value=SBD>Solomon Islands Dollar (SBD)</OPTION> 
+				<OPTION value=SCR>Seychellois Rupee (SCR)</OPTION> 
+				<OPTION value=SDG>Sudanese Pound (SDG)</OPTION> 
+				<OPTION value=SEK>Swedish Krona (SEK)</OPTION> 
+				<OPTION value=SGD>Singapore Dollar (SGD)</OPTION> 
+				<OPTION value=SHP>St. Helena Pound (SHP)</OPTION> 
+				<OPTION value=SKK>Slovak Koruna (SKK)</OPTION> 
+				<OPTION value=SLL>Sierra Leonean Leone (SLL)</OPTION>
+				<OPTION value=SOS>Somali Shilling (SOS)</OPTION>
+				<OPTION value=SRD>Surinamese Dollar (SRD)</OPTION> 
+				<OPTION value=STD>São Tomé Príncipe Dobra (STD)</OPTION> 
+				<OPTION value=SVC>Salvadoran Colón (SVC)</OPTION> 
+				<OPTION value=SYP>Syrian Pound (SYP)</OPTION>
+				<OPTION value=SZL>Swazi Lilangeni (SZL)</OPTION> 
+				<OPTION value=THB>Thai Baht (THB)</OPTION> 
+				<OPTION value=TJS>Tajikistani Somoni (TJS)</OPTION>
+				<OPTION value=TMT>Turkmenistani Manat (TMT)</OPTION> 
+				<OPTION value=TND>Tunisian Dinar (TND)</OPTION> 
+				<OPTION value=TOP>Tongan Paʻanga (TOP)</OPTION> 
+				<OPTION value=TRY>Turkish Lira (TRY)</OPTION> 
+				<OPTION value=TTD>Trinidad Tobago Dollar (TTD)</OPTION> 
+				<OPTION value=TWD>New Taiwan Dollar (NT$)</OPTION> 
+				<OPTION value=TZS>Tanzanian Shilling (TZS)</OPTION> 
+				<OPTION value=UAH>Ukrainian Hryvnia (UAH)</OPTION>
+				<OPTION value=UGX>Ugandan Shilling (UGX)</OPTION> 
+				<OPTION selected value=USD>US Dollar ($)</OPTION> 
+				<OPTION value=UYU>Uruguayan Peso (UYU)</OPTION> 
+				<OPTION value=UZS>Uzbekistani Som (UZS)</OPTION> 
+				<OPTION value=VEF>Venezuelan Bolívar (VEF)</OPTION> 
+				<OPTION value=VND>Vietnamese Dong (₫)</OPTION> 
+				<OPTION value=VUV>Vanuatu Vatu (VUV)</OPTION>
+				<OPTION value=WST>Samoan Tala (WST)</OPTION> 
+				<OPTION value=XAF>Central African CFA Franc (FCFA)</OPTION> 
+				<OPTION value=XCD>East Caribbean Dollar (EC$)</OPTION> 
+				<OPTION value=XDR>Special Drawing Rights (XDR)</OPTION>
+				<OPTION value=XOF>West African CFA Franc (CFA)</OPTION> 
+				<OPTION value=XPF>CFP Franc (CFPF)</OPTION> 
+				<OPTION value=YER>Yemeni Rial (YER)</OPTION> 
+				<OPTION value=ZAR>South African Rand (ZAR)</OPTION> 
+				<OPTION value=ZMK>Zambian Kwacha (1968–2012) (ZMK)</OPTION> 
+				<OPTION value=ZMW>Zambian Kwacha (ZMW)</OPTION>
+				<OPTION value=ZWL>Zimbabwean Dollar (2009) (ZWL)</OPTION>
+				</select>
+			</div>
+		</div>
+	
+
+
+		<div class="row" >
+			
+			<div class="col-md-6"  style="display:inline-block;">
+				<button type="button" class="btn btn-success" name="CONVERTIR" text="CONVERTIR" onclick="convertion()">
+					<span> CONVERTIR </span>
+				</button>
+			</div>
+
+			<div class="col-md-6"  style="display:inline-block;">
+				<button type="button" class="btn btn-info" name="Switch" text="SWITCH" onclick="currencySwitch()">
+					<span class="glyphicon glyphicon-sort" aria-hidden="true"></span>
+				</button>
+			</div>
+
+		</div>
+
+<!-- <div class="input-group">
+  <span class="input-group-addon" id="basic-addon3">https://example.com/users/</span>
+  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+</div> -->
+	<div class="col-md-6">
+		<div class="input-group">
+			<span class="input-group-addon" id="basic-addon1">Monto Convertido:</span>
+			<input type="" class="form-control" placeholder="Monto a convertir" aria-describedby="basic-addon1" name="" id="montoConvertido" disabled="">
+		</div>
+	</div>
+		
+	</div>
+
+	<footer>
+		<div class="row">
+			<div>
+				<a href="https://ar.linkedin.com/in/verardomatias"><img style="height:20px; width:20px" src="img/linkedin-icono.png"></a>
+			</div>
+		</div>
+		<div class="row" style="text-align:center; margin:10px;">
+			<label style=" margin:10px;"><i>Fuente de cotización Google Finances&reg;.</i></label>
+		</div>
+	</footer>
+
+</body>
+</html>

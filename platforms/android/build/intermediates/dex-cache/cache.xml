@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\pc\Desktop\Matias\Uberall\Currency Converter\App\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\release\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ad8cbcea9a578fba20700c4d06ddf9ee9edf7b92">
+        <dex dex="C:\Users\pc\Desktop\Matias\Uberall\Currency Converter\App\platforms\android\build\intermediates\pre-dexed\release\CordovaLib-unspecified-release_7e34c9075a771aa4cc0914b090b10001d352360b.jar" />
+    </item>
+
+</items>

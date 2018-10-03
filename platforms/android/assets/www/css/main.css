@@ -1,0 +1,204 @@
+html{
+	margin:0;
+	width:100%;
+	overflow-x: hidden;
+}
+
+
+body{
+	background-image: url("../img/billeteRecGrande.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-decoration-color: #FFF;
+	background-attachment: fixed;
+}
+
+
+label{
+	color: #fff;
+}
+
+
+a img {
+	position: absolute;
+	left:50%;
+	margin-left:-10px;
+}
+
+
+.row{
+	margin: 15px 0;
+}
+
+.btnConvertirSwitch{
+	width:100%;
+}
+
+.icon-menu select, option {
+background-repeat:no-repeat;
+background-position:bottom left;
+padding-left:30px;
+}
+
+option[value="AED"] {background-image: url("../img/banderas/United-Arab-Emirates.png");}
+option[value="AFN"] {background-image: url("../img/banderas/Afghanistan.png"); }
+option[value="ALL"] {background-image: url("../img/banderas/Albania.png"); }
+option[value="AMD"] {background-image: url("../img/banderas/Armenia.png"); }
+option[value="ANG"] {background-image: url("../img/banderas/Netherlands-Antilles.png"); }
+option[value="AOA"] {background-image: url("../img/banderas/Angola.png"); }
+option[value="ARS"] {background-image: url("../img/banderas/Argentina.png"); }
+option[value="AUD"] {background-image: url("../img/banderas/Australia.png"); }
+option[value="AWG"] {background-image: url("../img/banderas/Aruba.png"); }
+option[value="AZN"] {background-image: url("../img/banderas/Azerbaijan.png"); }
+option[value="BAM"] {background-image: url("../img/banderas/Bosnia-and-Herzegovina.png"); }
+option[value="BBD"] {background-image: url("../img/banderas/Barbados.png"); }
+option[value="BDT"] {background-image: url("../img/banderas/Bangladesh.png"); }
+option[value="BGN"] {background-image: url("../img/banderas/Belgium.png"); }
+option[value="BHD"] {background-image: url("../img/banderas/Bahrain.png"); }
+option[value="BIF"] {background-image: url("../img/banderas/Burundi.png"); }
+option[value="BMD"] {background-image: url("../img/banderas/Bermuda.png"); }
+option[value="BND"] {background-image: url("../img/banderas/Brunei.png"); }
+option[value="BOB"] {background-image: url("../img/banderas/Bolivia.png"); }
+option[value="BRL"] {background-image: url("../img/banderas/Brazil.png"); }
+option[value="BSD"] {background-image: url("../img/banderas/Bahamas.png"); }
+option[value="BTC"] {background-image: url("../img/banderas/.png"); }
+option[value="BTN"] {background-image: url("../img/banderas/Bhutan.png"); }
+option[value="BWP"] {background-image: url("../img/banderas/Botswana.png"); }
+option[value="BYR"] {background-image: url("../img/banderas/Belarus.png"); }
+option[value="BZD"] {background-image: url("../img/banderas/Belize.png"); }
+option[value="CAD"] {background-image: url("../img/banderas/Canada.png"); }
+option[value="CDF"] {background-image: url("../img/banderas/Democratic-Republic-of-the-Congo.png"); }
+option[value="CHF"] {background-image: url("../img/banderas/Switzerland.png"); }
+option[value="CLP"] {background-image: url("../img/banderas/Chile.png"); }
+option[value="CNY"] {background-image: url("../img/banderas/China.png"); }
+option[value="COP"] {background-image: url("../img/banderas/Colombia.png"); }
+option[value="CRC"] {background-image: url("../img/banderas/Costa-Rica.png"); }
+option[value="CUP"] {background-image: url("../img/banderas/Cuba.png"); }
+option[value="CVE"] {background-image: url("../img/banderas/Cape-Verde.png"); }
+option[value="CZK"] {background-image: url("../img/banderas/Czech-Republic.png"); }
+option[value="DEM"] {background-image: url("../img/banderas/Germany.png"); }
+option[value="DJF"] {background-image: url("../img/banderas/Djibouti.png"); }
+option[value="DKK"] {background-image: url("../img/banderas/Denmark.png"); }
+option[value="DOP"] {background-image: url("../img/banderas/Dominican-Republic.png"); }
+option[value="DZD"] {background-image: url("../img/banderas/Algeria.png"); }
+option[value="EGP"] {background-image: url("../img/banderas/Egypt.png"); }
+option[value="ERN"] {background-image: url("../img/banderas/Eritrea.png"); }
+option[value="ETB"] {background-image: url("../img/banderas/Ethiopia.png"); }
+option[value="EUR"] {background-image: url("../img/banderas/European-Union.png"); }
+option[value="FIM"] {background-image: url("../img/banderas/Finland.png"); }
+option[value="FJD"] {background-image: url("../img/banderas/Fiji.png"); }
+option[value="FKP"] {background-image: url("../img/banderas/ISLAS MALVINAS.png"); }
+option[value="FRF"] {background-image: url("../img/banderas/France.png"); }
+option[value="GBP"] {background-image: url("../img/banderas/United-Kingdom.png"); }
+option[value="GEL"] {background-image: url("../img/banderas/Georgia.png"); }
+option[value="GHS"] {background-image: url("../img/banderas/Ghana.png"); }
+option[value="GIP"] {background-image: url("../img/banderas/Gibraltar.png"); }
+option[value="GMD"] {background-image: url("../img/banderas/Gambia.png"); }
+option[value="GNF"] {background-image: url("../img/banderas/Guinea.png"); }
+option[value="GTQ"] {background-image: url("../img/banderas/Guatemala.png"); }
+option[value="GYD"] {background-image: url("../img/banderas/Guyana.png"); }
+option[value="HKD"] {background-image: url("../img/banderas/Hong-Kong.png"); }
+option[value="HNL"] {background-image: url("../img/banderas/Honduras.png"); }
+option[value="HRK"] {background-image: url("../img/banderas/Croatia.png"); }
+option[value="HTG"] {background-image: url("../img/banderas/Haiti.png"); }
+option[value="HUF"] {background-image: url("../img/banderas/Hungary.png"); }
+option[value="IDR"] {background-image: url("../img/banderas/Indonesia.png"); }
+option[value="IEP"] {background-image: url("../img/banderas/Ireland.png"); }
+option[value="ILS"] {background-image: url("../img/banderas/Israel.png"); }
+option[value="INR"] {background-image: url("../img/banderas/India.png"); }
+option[value="IQD"] {background-image: url("../img/banderas/Iraq.png"); }
+option[value="IRR"] {background-image: url("../img/banderas/Iran.png"); }
+option[value="ISK"] {background-image: url("../img/banderas/Iceland.png"); }
+option[value="ITL"] {background-image: url("../img/banderas/Italy.png"); }
+option[value="JMD"] {background-image: url("../img/banderas/Jamaica.png"); }
+option[value="JOD"] {background-image: url("../img/banderas/Jordan.png"); }
+option[value="JPY"] {background-image: url("../img/banderas/Japan.png"); }
+option[value="KES"] {background-image: url("../img/banderas/Kenya.png"); }
+option[value="KGS"] {background-image: url("../img/banderas/Kyrgyzstan.png"); }
+option[value="KHR"] {background-image: url("../img/banderas/Cambodia.png"); }
+option[value="KMF"] {background-image: url("../img/banderas/Cameroon.png"); }
+option[value="KPW"] {background-image: url("../img/banderas/North-Korea.png"); }
+option[value="KRW"] {background-image: url("../img/banderas/South-Korea.png"); }
+option[value="KWD"] {background-image: url("../img/banderas/Kuwait.png"); }
+option[value="KYD"] {background-image: url("../img/banderas/Caiman-Islands.png"); }
+option[value="KZT"] {background-image: url("../img/banderas/Kazakhstan.png"); }
+option[value="LAK"] {background-image: url("../img/banderas/Laos.png"); }
+option[value="LBP"] {background-image: url("../img/banderas/Lebanon.png"); }
+option[value="LKR"] {background-image: url("../img/banderas/Sri-Lanka.png"); }
+option[value="LRD"] {background-image: url("../img/banderas/Liberia.png"); }
+option[value="LSL"] {background-image: url("../img/banderas/Lesotho.png"); }
+option[value="LTL"] {background-image: url("../img/banderas/Lithuania.png"); }
+option[value="LVL"] {background-image: url("../img/banderas/Latvia.png"); }
+option[value="LYD"] {background-image: url("../img/banderas/Libya.png"); }
+option[value="MAD"] {background-image: url("../img/banderas/Morocco.png"); }
+option[value="MDL"] {background-image: url("../img/banderas/Moldova.png"); }
+option[value="MKD"] {background-image: url("../img/banderas/Macedonia.png"); }
+option[value="MMK"] {background-image: url("../img/banderas/Myanmar.png"); }
+option[value="MNT"] {background-image: url("../img/banderas/Mongolia.png"); }
+option[value="MOP"] {background-image: url("../img/banderas/Macau.png"); }
+option[value="MRO"] {background-image: url("../img/banderas/Mauritania.png"); }
+option[value="MUR"] {background-image: url("../img/banderas/Mauritania.png"); }
+option[value="MVR"] {background-image: url("../img/banderas/Maldives.png"); }
+option[value="MWK"] {background-image: url("../img/banderas/Malawi.png"); }
+option[value="MXN"] {background-image: url("../img/banderas/Mexico.png"); }
+option[value="MYR"] {background-image: url("../img/banderas/Malaysia.png"); }
+option[value="MZN"] {background-image: url("../img/banderas/Mozambique.png"); }
+option[value="NAD"] {background-image: url("../img/banderas/Namibia.png"); }
+option[value="NGN"] {background-image: url("../img/banderas/Niger.png"); }
+option[value="NIO"] {background-image: url("../img/banderas/Nicaragua.png"); }
+option[value="NOK"] {background-image: url("../img/banderas/Norway.png"); }
+option[value="NPR"] {background-image: url("../img/banderas/Nepal.png"); }
+option[value="NZD"] {background-image: url("../img/banderas/New-Zealand.png"); }
+option[value="OMR"] {background-image: url("../img/banderas/Oman.png"); }
+option[value="PAB"] {background-image: url("../img/banderas/Panama.png"); }
+option[value="PEN"] {background-image: url("../img/banderas/Peru.png"); }
+option[value="PGK"] {background-image: url("../img/banderas/Papua-New-Guinea.png"); }
+option[value="PH" ] {background-image: url("../img/banderas/Philippines.png"); }
+option[value="PKG"] {background-image: url("../img/banderas/Pakistan.png"); }
+option[value="PKR"] {background-image: url("../img/banderas/Pakistan.png"); }
+option[value="PLN"] {background-image: url("../img/banderas/Poland.png"); }
+option[value="PYG"] {background-image: url("../img/banderas/Paraguay.png"); }
+option[value="QAR"] {background-image: url("../img/banderas/Qatar.png"); }
+option[value="RON"] {background-image: url("../img/banderas/Romania.png"); }
+option[value="RSD"] {background-image: url("../img/banderas/Serbia.png"); }
+option[value="RUB"] {background-image: url("../img/banderas/Russia.png"); }
+option[value="RWF"] {background-image: url("../img/banderas/Rwanda.png"); }
+option[value="SAR"] {background-image: url("../img/banderas/Saudi-Arabia.png"); }
+option[value="SBD"] {background-image: url("../img/banderas/Solomon-Islands.png"); }
+option[value="SCR"] {background-image: url("../img/banderas/Seychelles.png"); }
+option[value="SDG"] {background-image: url("../img/banderas/Sudan.png"); }
+option[value="SEK"] {background-image: url("../img/banderas/Sweden.png"); }
+option[value="SGD"] {background-image: url("../img/banderas/Singapore.png"); }
+option[value="SHP"] {background-image: url("../img/banderas/Saint-Helena.png"); }
+option[value="SKK"] {background-image: url("../img/banderas/Slovakia.png"); }
+option[value="SLL"] {background-image: url("../img/banderas/Sierra-Leone.png"); }
+option[value="SOS"] {background-image: url("../img/banderas/Somalia.png"); }
+option[value="SRD"] {background-image: url("../img/banderas/Suriname.png"); }
+option[value="STD"] {background-image: url("../img/banderas/Sao-Tome-and-Principe.png"); }
+option[value="SVC"] {background-image: url("../img/banderas/El-Salvador.png"); }
+option[value="SYP"] {background-image: url("../img/banderas/Syria.png"); }
+option[value="SZL"] {background-image: url("../img/banderas/Swaziland.png"); }
+option[value="THB"] {background-image: url("../img/banderas/Thailand.png"); }
+option[value="TJS"] {background-image: url("../img/banderas/Tajikistan.png"); }
+option[value="TMT"] {background-image: url("../img/banderas/Turkmenistan.png"); }
+option[value="TND"] {background-image: url("../img/banderas/Tunisia.png"); }
+option[value="TOP"] {background-image: url("../img/banderas/Tonga.png"); }
+option[value="TRY"] {background-image: url("../img/banderas/Turkey.png"); }
+option[value="TTD"] {background-image: url("../img/banderas/Trinidad-and-Tobago.png"); }
+option[value="TWD"] {background-image: url("../img/banderas/Taiwan.png"); }
+option[value="TZS"] {background-image: url("../img/banderas/Tanzania.png"); }
+option[value="UAH"] {background-image: url("../img/banderas/Ukraine.png"); }
+option[value="UGX"] {background-image: url("../img/banderas/Uganda.png"); }
+option[value="USD"] {background-image: url("../img/banderas/United-States.png"); }
+option[value="UYU"] {background-image: url("../img/banderas/Uruguay.png"); }
+option[value="UZS"] {background-image: url("../img/banderas/Uzbekistan.png"); }
+option[value="VEF"] {background-image: url("../img/banderas/Venezuela.png"); }
+option[value="VND"] {background-image: url("../img/banderas/Vietnam.png"); }
+option[value="VUV"] {background-image: url("../img/banderas/Vanuatu.png"); }
+option[value="WST"] {background-image: url("../img/banderas/Samoa.png"); }
+option[value="XAF"] {background-image: url("../img/banderas/Central-African-Republic.png"); }
+option[value="YER"] {background-image: url("../img/banderas/Yemen.png"); }
+option[value="ZAR"] {background-image: url("../img/banderas/South-Africa.png"); }
+option[value="ZMK"] {background-image: url("../img/banderas/Zambia.png"); }
+option[value="ZMW"] {background-image: url("../img/banderas/Zambia.png"); }
+option[value="ZWL"] {background-image: url("../img/banderas/Zimbabwe.png"); }

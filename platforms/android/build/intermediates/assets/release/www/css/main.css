@@ -1,0 +1,32 @@
+html{
+	margin:0;
+	width:100%;
+	overflow-x: hidden;
+}
+
+
+body{
+	background-image: url("../img/billeteRecGrande.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-decoration-color: #FFF;
+	background-attachment: fixed;
+}
+
+
+label{
+	color: #fff;
+}
+
+
+a img {
+	position: absolute;
+	left:50%;
+	margin-left:-10px;
+}
+
+
+.row{
+	margin: 15px 0;
+}
+
